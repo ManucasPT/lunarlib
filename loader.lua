@@ -265,7 +265,7 @@ local sfx_names = {"Bameware", "Skeet", "Bonk", "Lazer Beam", "Windows XP Error"
 local LocalPlayer = Players.LocalPlayer; 
 local Mouse = LocalPlayer:GetMouse();
 local Camera = Workspace.CurrentCamera;
-local viewportSize = game.Workspace.CurrentCamera.ViewportSize;
+local viewportSize = game.Workspace.Camera.ViewportSize;
 local hitmodule = game:GetObjects("rbxassetid://7255773215")[1]; hitmodule.Parent = ReplicatedStorage;
 local Offset = game:GetService("GuiService"):GetGuiInset().Y;
 local Math = loadstring(game:HttpGet("https://raw.githubusercontent.com/f1nobe7650/Lynx/main/Math.lua"))(); 
