@@ -268,7 +268,7 @@ local Camera = Workspace.CurrentCamera;
 local viewportSize = game.Workspace.Camera.ViewportSize;
 local hitmodule = game:GetObjects("rbxassetid://7255773215")[1]; hitmodule.Parent = ReplicatedStorage;
 local Offset = game:GetService("GuiService"):GetGuiInset().Y;
-local Math = loadstring(game:HttpGet("https://raw.githubusercontent.com/f1nobe7650/Lynx/main/Math.lua"))(); 
+local Math = loadstring(game:HttpGet("https://raw.githubusercontent.com/ManucasPT/lunarlib/main/math.lua"))(); 
 local NotifiactionSGui = Instance.new("ScreenGui", game.CoreGui); NotifiactionSGui.Enabled = true
 local NewVector2 = Vector2.new;
 local NewVector3 = Vector3.new;
